@@ -1,4 +1,5 @@
 import { user } from "../models/user"
+
 import UsersList from "../components/usersList"
 const Users : React.FC<{users : Array<user>}> =({users})=>{
 
